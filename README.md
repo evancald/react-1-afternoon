@@ -480,7 +480,7 @@ export default class Sum extends Component {
 
 ### Summary
 
-In the following steps it's important to understand that there is more than one way to solve a toy problem; if your solution doesn't match mine that's okay. Also, since the following 5 components are very similiar in their structure, only step 3's detailed instructions go into great detail. The other steps after that won't go into much detail.
+In the following steps it's important to understand that there is more than one way to solve a toy problem; if your solution doesn't match mine that's okay. Also, since the following 5 components are very similar in their structure, only step 3's detailed instructions go into great detail. The other steps after that won't go into much detail.
 
 In this step, we'll start with the first topic: `EvenAndOdd`.
 
@@ -904,7 +904,7 @@ In this step, we'll build out the `FilterString` component.
 
 <b>The problem summary:</b> Using a pre-determined array of strings, filter out strings that do not contain a given string. Display a new array populated with the strings that do contain the given string.
 
-<b>The component outline:</b> One paren `div` element, one `h4` element, one `span` element, one `input` element, one `button` element, and another `span` element.
+<b>The component outline:</b> One parent `div` element, one `h4` element, one `span` element, one `input` element, one `button` element, and another `span` element.
 
 * Open `src/components/Topics/FilterString.js`.
 * Remove the `<p>` element from the `return` of the `render` method.
